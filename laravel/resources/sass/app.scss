@@ -1,0 +1,15 @@
+@import 'partials/header';
+@import 'partials/all_guests';
+@import 'partials/this_guest';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1180px;
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+#guest_details{
+
+    .container{
+
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 100px;
+
+        &>*{
+
+            width: 20%;
+
+            ul{
+
+                list-style: none;
+
+                li{
+                    margin: 15px 0;
+                }
+            }
+        }
+
+        .col-left{
+
+            li{
+                font-weight: 600;
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+#guests_list{
+
+    .container{
+
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-between;
+
+        &>*{
+
+            width: 25%;
+        }
+
+        .col-title{
+
+            color: rgb(22, 78, 97);
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .col{
+            width: 100%;
+            
+            ul{
+                list-style: none;
+
+                li{
+
+                    height: 60px;
+                    line-height: 60px;
+                    border-bottom: 1px solid black;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+
+                li:first-child{
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .details-btn{
+            margin-top: 29px;
+            
+            a{
+                color: rgb(22, 78, 97);
+                 
+                &:hover{
+
+                    color: #ccc;
+                }
+            }
+        }
+    }
+}
