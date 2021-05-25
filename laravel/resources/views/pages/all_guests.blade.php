@@ -7,6 +7,9 @@
 
 @section('content')
 <main>
+
+    @include('components.main_btn')
+
     <section id="guests_list">
         <div class="container">
             <div class="name col">
@@ -47,4 +50,5 @@
         </div>
     </section>
 </main>
+
 @endsection

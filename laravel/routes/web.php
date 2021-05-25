@@ -18,3 +18,8 @@ Route::get('/', 'GuestsController@all_guests')
 
 Route::get('/guest/{id}', 'GuestsController@this_guest')
     -> name('this_guest');
+
+Route::get('/create/guest', 'GuestsController@create')
+    -> name('create');
+Route::post('store/guest', 'GuestsController@store')
+    -> name('store');
